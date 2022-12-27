@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    background-image: url(f.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.code{
+    color:orange;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left:2px;
+    padding:55px 0;
+    float: left;
+    font-family:Arial;
+    cursor: pointer;
+}
+
+/* .code:hover{
+    color:rgb(28, 170, 40);
+} */
+
+ 
+ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+li{
+   padding: 60px;
+   font-size: 30px;
+   color:#c5b2bc ;
+   font-family:Arial;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+ul li:hover{
+    color: orange;
+}
+
+
+.srch{
+    padding: 8px;
+    border-radius: 10px;
+    color:white;
+    background: transparent;
+    border: 3px solid orange;
+    /* font-size: 10px; */
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.sch{
+  height: 35px;
+  border-radius: 8px;
+  background: transparent;
+  color:orange;
+  padding:2px;
+  border: 2px solid rgb(215, 207, 194);    
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: 80px;
+    position: relative;
+    color:#fff;
+}
+
+.content .para{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    font-family: Arial;
+    /* color: rgb(220, 86, 56); */
+}
+
+.content h1{
+    font-family: 'Times New Roma';
+    font-size: 50px;
+    margin-left: 25px;
+    letter-spacing: 2px;
+    padding-top:8%;
+    /* color:greenyellow; */
+}
+
+.content .join{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border: 2px solid rgb(29, 142, 183);
+    border-radius: 25px;
+    margin-left: 10%;
+    background: orange;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .join a{
+    text-decoration: none;
+    color: rgb(18, 15, 15);
+    transition: .3s ease;
+}
+
+.join:hover{
+    background-color:lightgrey;
+}
+
+.content span{
+    color: orange;
+}
+
+.form{
+    height:350px;
+    width: 250px;
+    /* background-color: rgb(116, 68, 75); */
+    border: 3px solid sandybrown;
+    border-radius: 10px;
+    padding: 40px;
+    margin-left: 110%;
+    margin-top: -30%;
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    background-color: white;
+    color: orange;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 9px;
+    margin-top: 10%;
+}
+
+.form input{
+    width:200px;
+    height: 30px;
+    margin: 8px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: 3px solid orange;
+    border-radius: 9px;
+    padding: 5px;
+    background: transparent;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.btn{
+    height: 25px;
+    width: 100px;
+    margin-left: 25%;
+    color: chocolate;
+    background: transparent;
+    /* border: 2px solid violet; */
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color:black;
+}
+
+.acc{
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.acc a{
+    text-decoration: none;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+
+ 
